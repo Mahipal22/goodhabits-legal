@@ -47,3 +47,7 @@ You can stop using Good Habits and ask us to delete your account at any time. We
 ## Changes
 
 We will post changes here with a new version date.
+
+## Contact
+
+Email [mahipalrav@gmail.com](mailto:mahipalrav@gmail.com).

@@ -4,7 +4,7 @@ title: Privacy policy
 
 # Good Habits privacy policy
 
-**Draft, version 2026-10-29.** Written by the founder with AI assistance. It has not been reviewed by a lawyer. Good Habits is in a private beta.
+**Draft, version 2026-10-30.** Written by the founder with AI assistance. It has not been reviewed by a lawyer. Good Habits is in a private beta.
 
 Good Habits is an iPhone app that reads your Apple Health data and lab results and turns them into nutrition targets and meal plans. It is built and run by an individual developer in the United States ("we"). This policy explains what we collect, why, who processes it, and what you can do about it.
 
@@ -34,7 +34,9 @@ Good Habits is an iPhone app that reads your Apple Health data and lab results a
 **What we do not collect**
 - No location, contacts, photos, advertising identifiers, or browsing data. No analytics or tracking tools are in the app during the beta.
 
-Lab reports are not collected yet. When lab import ships, this policy will be updated before the feature is available.
+**Lab reports**, when you add them
+- Results you type in by hand: test, value, unit, the printed range, the collection date, and the lab.
+- Report files you import (PDF or a camera scan): the file itself, stored in a private folder only your account can read, plus the results read from it after you review and confirm them.
 
 ## How we use it
 
@@ -46,7 +48,9 @@ We do **not** sell your data, use it for advertising, share it with data brokers
 ## Who processes it
 
 - **Supabase** hosts our database and sign-in in the United States. Data is encrypted in transit and at rest.
-- **Anthropic** (the Claude AI model) will process your health data to build health summaries, meal plans, and chat answers, **only if you turn on "Allow AI processing" in the app**. What we send is de-identified: no name, email, or exact date of birth. This feature is not active in the current beta.
+- **Anthropic** (the Claude AI model) processes your data **only if you turn on "Allow AI processing" in the app**:
+  - When you import a lab report file, the file is sent so Claude can read the results. It contains whatever the lab printed, usually including your name and date of birth. Claude is instructed to copy only the results, and you review every value before it is saved.
+  - For health summaries, meal plans, and chat answers (later in the beta), what we send is de-identified: no name, email, or exact date of birth.
 - **Apple** provides Apple Health on your iPhone. We never store Apple Health data in iCloud.
 
 ## On your iPhone
@@ -80,4 +84,4 @@ We will post changes here with a new version date, and ask for your consent agai
 
 ## Contact
 
-Contact details will be added here before the beta opens to testers outside the founder.
+Questions, requests to delete or export your data, or to withdraw a consent: email [mahipalrav@gmail.com](mailto:mahipalrav@gmail.com). We reply within 30 days, usually much sooner.
